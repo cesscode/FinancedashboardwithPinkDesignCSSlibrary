@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Finance Dashboard</title>
+    <!-- End of Tittle -->
+
+    <!--Pink Design CSS Library Start  -->
+   <link rel="stylesheet" href="https://unpkg.com/@appwrite.io/pink"/>
+    <!--Pink Design CSS Library end  -->
+
+    <!-- Icons End -->
+    <link rel="stylesheet" href="https://unpkg.com/@appwrite.io/pink-icons"/>
+    <!--Icons Start  -->
+
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,600&display=swap" rel="stylesheet">
+    <!-- End of Font family -->
+
+    <!--CSS INLINE STYLES START -->
+<style>
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body, html {
+    font-size: 16px;
+    font-family: poppins;
+} 
+
+.first-section {
+    /* background-color: red; */
+    padding: 2em 0;
+}
+
+.first-section_box {
+    /* border: 1px solid grey; */
+    width: 300px;
+    padding: 1.5em;
+    box-shadow: 3px 3px 4px black;
+
+}
+
+.first-section_box > .logo {
+    font-size: 4.5rem;
+    background-color: #eff3fd;
+    color: #88a5f3;
+}
+
+.first-section_box > .icon-calculator {
+    font-size: 4.5rem;
+    background-color: #fcf4f3;
+    color: #e4a087;
+}
+
+.first-section_box > .icon-truck {
+    font-size: 4.5rem;
+    background-color: #feeeef;
+    color: #f17080;
+}
+
+.first-section_box > .icon-home {
+    font-size: 4.5rem;
+    background-color: #fcf1f6;
+    color: #e4a087;
+}
+
+main, footer {
+    background-color: #f6f8fc;
+}
+
+.performance-section > .performance-section_revenue {
+    /* border: 1px solid grey; */
+    width: 700px;
+    box-shadow: 3px 3px 4px black;
+    padding: 2em;
+} 
+
+.text-performance > p {
+    margin-bottom: 0,7em;
+}
+
+
+.footer-sections > .first-footer {
+    /* border: 1px solid grey; */
+    box-shadow: 3px 3px 4px black;
+    width: 700px;
+    padding: 2em;
+    background-color: #ffffff;
+
+}
+
+.second-footer {
+     /* border: 1px solid grey; */
+    box-shadow: 3px 3px 4px black;
+    width: 700px;
+    padding: 2em;
+    background-color: #ffffff
+}
+
+
+
+</style>
+
+
+<!-- CSS INLINE STYLES END-->
+    
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="u-flex u-main-space-between u-cross-center u-margin-32">
+                <li><a href="#" class="heading-level-2">Finance Dashboard</a></li>
+                <li><a href="#" class="heading-level-4" style="text-decoration: underline">Home</a></li>
+                <li><a href="#" class="heading-level-5">About</a></li>
+                <li><a href="#" class="heading-level-5">Contact</a></li>
+                <li><a href="#" class="heading-level-5">Piscal Year</a></li>
+                <li><a href="#" class="heading-level-5">2023</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="first-section u-flex u-main-space-between u-cross-center u-margin-32">
+            
+            
+            <div class="first-section_box u-flex u-cross-center u-main-center u-gap-8" style="border-radius: var(--border-radius-small);">
+                
+                <div class="logo icon-currency-dollar">
+
+                </div>
+
+                <div class="text u-flex u-flex-vertical u-gap-4">
+                    <p class="heading-level-5">REVENUE</p>
+                    <p class="heading-level-4">$2,297,201</p>
+                </div>
+
+            </div>
+
+            <div class="first-section_box u-flex u-cross-center u-main-center u-gap-8 " style="border-radius: var(--border-radius-small);">
+                
+                <div class="logo icon-home">
+
+                </div>
+
+                <div class="text u-flex u-flex-vertical u-gap-4">
+                    <p class="heading-level-5">PROFIT</p>
+                    <p class="heading-level-4">$286,397</p>
+                </div>
+
+            </div>
+
+            <div class="first-section_box u-flex u-cross-center u-main-center u-gap-8 " style="border-radius: var(--border-radius-small);">
+                
+                <div class="logo icon-truck">
+
+                </div>
+
+                <div class="text u-flex u-flex-vertical u-gap-4">
+                    <p class="heading-level-5">ORDERS</p>
+                    <p class="heading-level-4">509</p>
+                </div>
+
+            </div>
+
+            <div class="first-section_box u-flex u-cross-center u-main-center u-gap-8 " style="border-radius: var(--border-radius-small);">
+                
+                <div class="logo icon-users">
+
+                </div>
+
+                <div class="text u-flex u-flex-vertical u-gap-4">
+                    <p class="heading-level-5">CUSTOMERS</p>
+                    <p class="heading-level-4">793</p>
+                </div>
+
+            </div>
+
+            <div class="first-section_box u-flex u-cross-center u-main-center u-gap-8 " style="border-radius: var(--border-radius-small);">
+                
+                <div class="logo icon-calculator">
+
+                </div>
+
+                <div class="text u-flex u-flex-vertical u-gap-4">
+                    <p class="heading-level-5">QUANTITY</p>
+                    <p class="heading-level-4">37,873</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="performance-section u-flex u-main-space-between u-cross-center u-margin-32">
+
+
+            <div class="performance-section_revenue">
+
+                <div class="text-performance u-flex u-main-space-between">
+
+                    <p class="heading-level-4">REVENUE PERFORMANCE</p>
+                    <div class="quarter u-flex u-gap-8">
+                        <p class="heading-level-5">Qtr 1</p>
+                        <p class="heading-level-5">Qtr 2</p>
+                    </div>
+
+                </div>
+
+                <img src="Assets/Images/Group 1.jpg" alt="">
+
+            </div>
+
+
+            <div class="performance-section_revenue">
+
+                <div class="text-performance u-flex u-main-space-between">
+                    <p class="heading-level-4">REGION PERFORMANCE</p>
+                    <p class="heading-level-5">CATEGORY</p>
+                </div>
+
+                <img src="Assets/Images/Group 9.jpg" alt="">
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+    
+    
+    <footer>
+
+        <section class="footer-sections u-flex u-main-space-between u-cross-center u-margin-32"">
+            
+        <div class="first-footer">
+
+            <div class="first-footer-paragraph u-flex u-main-space-between">
+                <p class="heading-level-4">SUB-CATEGORY RANKING</p>
+                <p class="heading-level-5">REVENUE</p>
+            </div>
+            
+            <div class="footer-links u-flex u-main-space-between">
+                
+                <div class="first-footer-link">
+                    <ul>
+                        <li><a class="heading-level-5" href="">Phones</a></li>
+                        <li><a class="heading-level-5" href="">Chairs</a></li>
+                        <li><a class="heading-level-5" href="">Storage</a></li>
+                    </ul>
+                </div>
+
+                  <div class="first-footer-link">
+                <ul>
+                    <li><a class="heading-level-5" href="">Technology</a></li>
+                    <li><a class="heading-level-5" href="">Furniture</a></li>
+                    <li><a class="heading-level-5" href="">Office Supplies</a></li>
+                </ul>
+                </div>
+
+                  <div class="first-footer-link">
+                <ul>
+                    <li><a class="heading-level-5" href="">3,289</a></li>
+                    <li><a class="heading-level-5" href="">2,356</a></li>
+                    <li><a class="heading-level-5" href="">3,158</a></li>
+                </ul>
+                </div>
+
+                  <div class="first-footer-link">
+                <ul>
+                    <li><a class="heading-level-5" href="">$330.007</a></li>
+                    <li><a class="heading-level-5" href="">$328.449</a></li>
+                    <li><a class="heading-level-5" href="">$223.844</a></li>
+                </ul>
+                </div>
+
+
+            </div>
+
+          
+        </div>
+            
+
+
+        <div class="second-footer">
+ 
+            <p class="heading-level-4">REVENUE VS PROFIT </p>
+            <img src="Assets/Images/bar.jpg" alt="">
+        </div>
+           
+        </section>
+    </footer>
+
+
+</body>
+
+</html>
